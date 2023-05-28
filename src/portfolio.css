@@ -120,7 +120,7 @@ h2 {
     font-size: 40px;
   }
   .hero {
-    padding: 160px 20px;
+    padding: 80px 20px;
   }
 }
 @media (max-width: 500px) {
