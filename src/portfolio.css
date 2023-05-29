@@ -30,6 +30,11 @@ p {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 18px;
+  color: #272142;
+  font-family: var(--default-font-family);
+}
 .hero h2 {
   font-size: 24px;
   font-family: var(--heading-font-family);
@@ -105,6 +110,42 @@ h2 {
 .last-projects {
   margin-top: 10px;
 }
+.second-page-name {
+  font-size: 64px;
+}
+.second-hero {
+  padding: 160px 20px;
+}
+.btn-all-projects {
+  background: var(--branding-color);
+  padding: 10px 20px;
+  color: white;
+  font-family: var(--default-font-family);
+}
+.about-paragraph {
+  font-family: var(--default-font-family);
+  color: #272142;
+  font-size: 16px;
+}
+.about-bottom {
+  border: 2px solid white;
+  border-radius: 6px;
+  background: var(--secondary-color);
+  display: block;
+  padding: 40px;
+  margin: 0 100px;
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
+.about-mail {
+  color: #000000;
+  font-family: var(--default-font-family);
+}
+.about-bottom-icons i {
+  padding: 20px;
+  color: var(--branding-color);
+}
+
 @media (max-width: 960px) {
   .project-description {
     text-align: center;
