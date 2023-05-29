@@ -140,6 +140,8 @@ h4 {
 .about-mail {
   color: #000000;
   font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: bold;
 }
 .about-bottom-icons i {
   padding: 20px;
