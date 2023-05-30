@@ -30,11 +30,6 @@ p {
 h2 {
   font-size: 64px;
 }
-h4 {
-  font-size: 18px;
-  color: #272142;
-  font-family: var(--default-font-family);
-}
 .hero h2 {
   font-size: 24px;
   font-family: var(--heading-font-family);
@@ -112,24 +107,42 @@ h4 {
 }
 .second-page-name {
   font-size: 64px;
+  font-family: var(--heading-font-family);
+  font-style: normal;
+  font-weight: 700;
+
+  line-height: 85px;
 }
 .second-hero {
   padding: 160px 20px;
 }
+.second-hero h4 {
+  font-family: var(--heading-font-family);
+  font-size: 18px;
+  color: #272142;
+  font-family: var(--default-font-family);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+}
 .btn-all-projects {
   background: var(--branding-color);
-  padding: 10px 20px;
+  padding: 18px 30px;
   color: white;
   font-family: var(--default-font-family);
+  border-radius: 4px;
 }
 .about-paragraph {
   font-family: var(--default-font-family);
   color: #272142;
   font-size: 16px;
+  line-height: 30px;
+  font-style: normal;
+  font-weight: 400;
 }
 .about-bottom {
   border: 2px solid white;
-  border-radius: 6px;
+  border-radius: 20px;
   background: var(--secondary-color);
   display: block;
   padding: 40px;
@@ -137,15 +150,40 @@ h4 {
   margin-top: -40px;
   margin-bottom: 20px;
 }
+.about-bottom h2 {
+  font-family: var(--heading-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+}
+.about-bottom p {
+  font-family: var(--default-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(39, 33, 66, 0.7);
+}
+.btn-about-bottom {
+  border-radius: 4px;
+  padding: 18px 30px;
+}
 .about-mail {
   color: #000000;
   font-family: var(--default-font-family);
+  font-style: normal;
+  font-weight: 500;
   font-size: 24px;
-  font-weight: bold;
+  line-height: 36px;
 }
 .about-bottom-icons i {
   padding: 20px;
   color: var(--branding-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 @media (max-width: 960px) {
@@ -172,7 +210,18 @@ h4 {
   .last-projects {
     margin-top: 15px;
   }
+  .second-hero {
+    text-align: center;
+    padding: 5px 30px;
+  }
+  .btn-all-projects {
+    margin-bottom: 30px;
+  }
+  .about-img {
+    margin-bottom: 100px;
+  }
 }
+
 @media (max-width: 500px) {
   .hero h1 {
     font-size: 35px;
@@ -192,6 +241,16 @@ h4 {
   }
   .last-projects {
     margin-top: 15px;
+  }
+  .second-page-name {
+    font-size: 36px;
+    line-height: 1.3;
+  }
+  .second-hero {
+    padding: 20px;
+  }
+  .btn-all-projects {
+    margin-top: -20px;
   }
 }
 
