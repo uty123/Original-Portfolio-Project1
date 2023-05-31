@@ -115,7 +115,7 @@ h2 {
   line-height: 85px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 120px 20px;
 }
 .content-container h4 {
   font-family: var(--heading-font-family);
@@ -202,6 +202,23 @@ h2 {
   font-size: 14px;
   line-height: 21px;
   color: rgba(39, 33, 66, 0.7);
+}
+
+.work-heading {
+  font-family: var(--heading-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+  margin-top: -40px;
+  margin-bottom: 30px;
+}
+.contact-heading {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
 }
 @media (max-width: 960px) {
   .project-description {
