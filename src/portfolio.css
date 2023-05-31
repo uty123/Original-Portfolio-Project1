@@ -169,15 +169,14 @@ nav li.active a {
   font-style: normal;
   font-weight: 400;
 }
-.about-bottom {
-  border: 2px solid white;
-  border-radius: 20px;
+footer .about-bottom {
+  border-radius: 10px;
   background: var(--secondary-color);
-  display: block;
-  padding: 40px;
-  margin: 0 100px;
-  margin-top: -40px;
-  margin-bottom: 20px;
+
+  padding: 30px 120px;
+}
+footer .about-bottom p {
+  margin: 0;
 }
 .about-bottom h2 {
   font-family: var(--heading-font-family);
@@ -194,11 +193,8 @@ nav li.active a {
   line-height: 27px;
   color: rgba(39, 33, 66, 0.7);
 }
-.btn-about-bottom {
-  border-radius: 4px;
-  padding: 18px 30px;
-}
-.about-mail {
+
+footer .about-mail {
   color: #000000;
   font-family: var(--default-font-family);
   font-style: normal;
@@ -206,13 +202,27 @@ nav li.active a {
   font-size: 24px;
   line-height: 36px;
 }
-.about-bottom-icons i {
-  padding: 20px;
+footer .about-mail:hover {
   color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
+footer .about-bottom-icons a {
+  padding: 10px 14px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  border-radius: 50%;
+  margin: 20px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .about-bottom-icons a:hover {
+  color: white;
+  background: var(--branding-color);
 }
 
 .content-container h3 {
@@ -242,7 +252,7 @@ nav li.active a {
   margin-bottom: 30px;
 }
 .contact-heading {
-  font-family: "Playfair Display";
+  font-family: var(--heading-font-family);
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
@@ -363,5 +373,8 @@ nav li.active a {
   }
   nav a {
     font-size: 14px;
+  }
+  .sub-footer {
+    margin-top: 80px;
   }
 }
