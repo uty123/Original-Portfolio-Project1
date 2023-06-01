@@ -82,6 +82,13 @@ nav li.active a {
 }
 .icon {
   font-size: 40px;
+  color: white;
+}
+.icon a {
+  color: var(--branding-color);
+}
+.icon a:hover {
+  color: white;
 }
 .btn-branded {
   background: var(--branding-color);
@@ -94,11 +101,13 @@ nav li.active a {
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
+  transition: all 150ms ease-in-out;
 }
 .btn-branded:hover {
   background: transparent;
   color: var(--branding-color);
   text-decoration: none;
+  border: 2px solid black;
 }
 .border-mid {
   border: 2px solid white;
