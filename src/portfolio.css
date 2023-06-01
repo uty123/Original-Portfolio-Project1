@@ -104,7 +104,7 @@ nav li.active a {
   transition: all 150ms ease-in-out;
 }
 .btn-branded:hover {
-  background: transparent;
+  background: white;
   color: var(--branding-color);
   text-decoration: none;
   border: 2px solid black;
@@ -114,14 +114,18 @@ nav li.active a {
   border-radius: 3px;
   background: rgb(30, 133, 174);
   display: block;
-  padding: 40px;
+  padding: 40px 2px;
   margin: 0 300px;
-  margin-top: -40px;
+  margin-top: -70px;
   margin-bottom: 20px;
+}
+.border-icons {
+  font-size: 80px;
 }
 .demoncode-btn {
   margin-left: -2px;
 }
+
 .btn-demo {
   background: var(--secondary-color);
   margin-right: 20px;
@@ -130,11 +134,18 @@ nav li.active a {
   font-family: var(--default-font-family);
   font-weight: normal;
 }
+.btn-demo:hover {
+  border: 2px solid var(--secondary-color);
+  background: white;
+}
 .btn-code {
   border: 2px solid var(--secondary-color);
   padding: 9px 30px;
 
   font-family: var(--default-font-family);
+}
+.btn-code:hover {
+  background: var(--secondary-color);
 }
 .project-description {
   padding: 0 61px;
