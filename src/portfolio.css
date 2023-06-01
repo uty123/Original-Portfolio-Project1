@@ -78,7 +78,7 @@ nav li.active a {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 90px 20px;
 }
 .icon {
   font-size: 40px;
@@ -180,6 +180,11 @@ nav li.active a {
   color: white;
   font-family: var(--default-font-family);
   border-radius: 4px;
+  transition: all 150ms ease-in-out;
+}
+.btn-all-projects:hover {
+  border: 2px solid black;
+  color: var(--branding-color);
 }
 .about-paragraph {
   font-family: var(--default-font-family);
